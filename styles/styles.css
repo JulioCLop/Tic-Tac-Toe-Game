@@ -1,0 +1,39 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: rgb(30,144,255);
+    margin: 0;
+    padding: 0;
+}
+
+#main-header{
+    background-color: rgb(176,196,222);
+    padding: 2rem 5%;
+    text-align: center;
+    
+}
+
+.btn{
+font: inherit;
+padding: 0.5rem 1.5rem;
+background-color: rgb(176,196,222);
+border: 1px solid rgb(176,196,222);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.btn-alt{
+background-color: transparent;
+border-color: transparent;
+color: rgb(9, 35, 90);;
+}
+
+.btn:hover{
+background-color:rgb(199, 212, 228) ;
+border-color: rgb(199, 212, 228);
+}
+
+.btn-alt:hover{
+background-color: rgb(183, 211, 245);
+color: rgb(0,0,0);
+border-color: transparent;
+}
